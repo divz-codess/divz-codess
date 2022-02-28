@@ -1,0 +1,395 @@
+{
+  "intents": [
+    {
+      "intent": "Goodbye",
+      "examples": [
+        {
+          "text": "Bbye"
+        },
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "c ya"
+        },
+        {
+          "text": "See ya"
+        },
+        {
+          "text": "see you later"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "Annyeong"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Namaste"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Order",
+      "examples": [
+        {
+          "text": "I want to order a latte"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thanking",
+      "examples": [
+        {
+          "text": "No thanks, I'm done"
+        },
+        {
+          "text": "No thanks, I'm fine"
+        },
+        {
+          "text": "Thank you, I'm fine"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thanking_you",
+      "examples": [
+        {
+          "text": "appreciate it"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "i appreciate it"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thnx"
+        },
+        {
+          "text": "thx"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Welcome",
+      "examples": [
+        {
+          "text": "Can I order a coffee?"
+        },
+        {
+          "text": "Can you take a coffee order?"
+        },
+        {
+          "text": "Hey, I wanna order a coffee"
+        },
+        {
+          "text": "Hi, Can I order a coffee"
+        },
+        {
+          "text": "Hi, Can I place my coffee order ?"
+        },
+        {
+          "text": "hi i want to place my order"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "HotORCold",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cold",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hot",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ItemName",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Americano",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cappuccino",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Espresso",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Latte",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mocha",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ItemSize",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Large",
+          "synonyms": [
+            "Big"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Medium",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Small",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I'm a coffee bot from CCD how can I help you :) "
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_9_1626894755027",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, what size would you like to have?"
+              },
+              {
+                "text": "Sure, what size would be perfect for you?"
+              },
+              {
+                "text": "Which size would you like to have small, medium or large?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@ItemName",
+      "dialog_node": "node_1_1626868555125",
+      "previous_sibling": "node_2_1626868602913"
+    },
+    {
+      "type": "standard",
+      "title": "#Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure, what do you need?"
+              },
+              {
+                "text": "Sure, what order shall I place for you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Welcome",
+      "dialog_node": "node_2_1626868602913"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, how would you like to have your coffee hot or cold?"
+              },
+              {
+                "text": "Sure, hot or cold?"
+              },
+              {
+                "text": "Fine, hot of cold?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1626868555125",
+      "conditions": "@ItemSize",
+      "dialog_node": "node_2_1626892516282"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fine, your order is confirmed would you like to have anything else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1626892516282",
+      "conditions": "@HotORCold",
+      "dialog_node": "node_6_1626892674811"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fine, you're now being redirected to the payments page:)"
+              },
+              {
+                "text": "Welcome , you're now being redirected to the payments page:)"
+              },
+              {
+                "text": "Thanks to you too, you're now being redirected to the payments page:)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Thanking",
+      "dialog_node": "node_9_1626893034324",
+      "previous_sibling": "node_1_1626868555125"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My pleasure :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Thanking_you",
+      "dialog_node": "node_9_1626894755027",
+      "previous_sibling": "node_9_1626893034324"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Complete information abut our coffee shop...",
+  "language": "en",
+  "description": "Helps customers in solving their queries..."
+}
