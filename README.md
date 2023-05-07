@@ -1,7 +1,10 @@
 - ## Hey 👋 everyone
+
+
 <div align="center">
-  <img src="https://media.giphy.com/media/vLlpbDafjgHystuJ0a/giphy.gif" width="250" height="250"/>
+  <img src="https://user-images.githubusercontent.com/88512639/236681215-169f41d8-9233-46b4-8db3-77a390330303.png" width="500" height="300"/>
 </div>
+
 
 - 👋 Hi, I’m Divyangi.
 - 👀 I’m a Google Summer of Code contributor at International Catrobat Association.
@@ -10,6 +13,10 @@
 - 📫 You can reach me out on my linkedIn www.linkedin.com/in/divyangi-raghav
 - 📧 My e-mail id is: divyangi.raghav@gmail.com
 - 🌐 My portfolio website is: www.divyangiraghav.me
+
+<div align="center">
+  <img src="https://media.giphy.com/media/vLlpbDafjgHystuJ0a/giphy.gif" width="250" height="250"/>
+</div>
 
 <!---
 divz-codess/divz-codess is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
