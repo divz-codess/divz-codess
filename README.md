@@ -4,8 +4,8 @@
 </div>
 
 - 👋 Hi, I’m Divyangi.
-- 👀 I’m interested in Web Development, Flutter development and DSA.
-- 🌱 I’m currently learning Flutter.
+- 👀 I’m a Google Summer of Code contributor at International Catrobat Association.
+- 🌱 I’m currently learning a ton of new things.
 - 💞️ I’m looking to collaborate on projects of similar interests 
 - 📫 You can reach me out on my linkedIn www.linkedin.com/in/divyangi-raghav
 - 📧 My e-mail id is: divyangi.raghav@gmail.com
