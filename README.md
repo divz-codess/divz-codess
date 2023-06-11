@@ -8,6 +8,7 @@
 
 - 👋 Hi, I’m Divyangi.
 - 👀 I’m a Google Summer of Code contributor at International Catrobat Association.
+- 🐬 I’m interning as an SDE Intern at Datainsights
 - 🌱 I’m currently learning a ton of new things.
 - 💞️ I’m looking to collaborate on projects of similar interests 
 - 📫 You can reach me out on my linkedIn www.linkedin.com/in/divyangi-raghav
