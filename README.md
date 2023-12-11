@@ -13,7 +13,6 @@
 - 💞️ I’m looking to collaborate on projects of similar interests 
 - 📫 You can reach me out on my linkedIn www.linkedin.com/in/divyangi-raghav
 - 📧 My e-mail id is: divyangi.raghav@gmail.com
-- 🌐 My portfolio website is: www.divyangiraghav.me
 
 <div align="center">
   <img src="https://media.giphy.com/media/vLlpbDafjgHystuJ0a/giphy.gif" width="250" height="250"/>
