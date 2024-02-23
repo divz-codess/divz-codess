@@ -7,13 +7,12 @@
 
 
 - 👋 Hi, I’m Divyangi.
-- ✨ I am an upcoming Winter Intern at Cisco.
-- 👀 I was a Google Summer of Code contributor at International Catrobat Association.
+- ✨ I am a Software Engineering Intern at Cisco.
+- 👀 I was a Google Summer of Code 2023 contributor at International Catrobat Association.
 - 🐬 I have interned as an SDE Intern at Datainsights, Microsoft and Tenfins.
 - 🌱 I’m currently learning a ton of new things.
 - 💞️ I’m looking to collaborate on projects of similar interests 
 - 📫 You can reach me out on my linkedIn www.linkedin.com/in/divyangi-raghav
-- 📧 My e-mail id is: divyangi.raghav@gmail.com
 
 <div align="center">
   <img src="https://media.giphy.com/media/vLlpbDafjgHystuJ0a/giphy.gif" width="250" height="250"/>
