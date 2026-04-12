@@ -22,8 +22,7 @@
 divz-codess/divz-codess is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-[![Linkedin Badge](https://img.shields.io/badge/-divyangiraghav/-0072b1?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/divyangi-raghav/)](https://www.linkedin.com/in/divyangi-raghav//) [![Github Badge](https://img.shields.io/badge/-divzcodess-grey?style=flat&logo=github&logoColor=white&link=https://github.com/divz-codess/)](https://www.github.com/divz-codess/) 
-[![Twitter Badge](https://img.shields.io/badge/-@DivzzTwt-00acee?style=flat&logo=twitter&logoColor=white&link=https://twitter.com/@DivzzTwt/)](https://www.twitter.com/@DivzzTwt/) 
+[![Linkedin Badge](https://img.shields.io/badge/-divyangiraghav/-0072b1?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/divyangi-raghav/)](https://www.linkedin.com/in/divyangi-raghav/) [![Github Badge](https://img.shields.io/badge/-divzcodess-grey?style=flat&logo=github&logoColor=white&link=https://github.com/divz-codess/)](https://www.github.com/divz-codess/) 
 
 ### :hammer_and_wrench: Languages and Tools :
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="40" height="40"/>&nbsp;
