@@ -7,8 +7,8 @@
 
 
 - 👋 Hi, I’m Divyangi.
-- ✨ I am a Software Engineer at Cisco.
-- 👀 I was a Google Summer of Code 2023 contributor at International Catrobat Association.
+- ✨ I am a Software Engineer at Microsoft working with Azure.
+- 👀 I was a Google Summer of Code 2023 contributor at Catrobat.
 - 🐬 I have interned as an SDE Intern at Cisco, Datainsights, Microsoft and Tenfins.
 - 🌱 I’m currently learning a ton of new things.
 - 💞️ I’m looking to collaborate on projects of similar interests 
